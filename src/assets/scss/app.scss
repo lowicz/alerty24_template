@@ -118,6 +118,10 @@
   background-color: $light-gray;
 };
 
+.alternative-text {
+  color: $medium-gray;
+}
+
 .footer {
   background-color: $secondary-bgcolor;
   padding-top: $global-padding;
@@ -132,4 +136,22 @@
     p,li {
        font-family: 'Open Sans', Arial, sans-serif !important;
     }
+}
+
+h2 {
+  color: #ec0000;
+}
+
+hr {
+  border-color: $secondary-bgcolor;
+  border-style: solid;
+}
+
+.padd {
+  padding-bottom: 30px !important;
+}
+
+table.container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
